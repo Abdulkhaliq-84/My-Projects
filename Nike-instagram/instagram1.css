@@ -1,0 +1,442 @@
+body{
+  height: 3000px;
+ 
+
+}
+
+
+.header-contanier{
+  display: flex;
+  position: fixed;
+  flex-direction: row;
+  border-bottom-color: rgb(181, 181, 181);
+  border-bottom-style: solid;
+  border-bottom-width: 0.5px;
+  width: 730px;
+  top : 0;
+  height: 30px;
+  align-items: center;
+  z-index: 100000;
+  background-color: white;
+
+}
+
+.logo-contanier{
+  margin-right: 0;
+}
+
+.insta-logo{
+  width: 50px;
+  margin-left: 150px;
+  margin-right: 100px;
+}
+
+.search-bar-contanier{
+  display: flex;
+  position: relative;
+  align-items: center;
+  margin-left: 0;
+  margin-right: 130px;
+
+}
+
+.search-bar{
+  background-color: rgb(239, 239, 239);
+  border: none;
+  width: 100px;
+  height: 7px;
+  border-radius: 5px;
+  font-size: 8px;
+  padding-left: 30px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: 100;
+  font-family: Roboto,Arial;
+  margin-left: 0;
+}
+
+.search-icon{
+  width: 8px;
+  margin-left: 10px;
+  position: absolute;
+}
+
+.buttons-contanier{
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+.Log-In-button{
+  width: 42px;
+  height: 18px;
+  font-size: 8px;
+  background-color: #0095F6;
+  font-family: 'Roboto', sans-serif;
+  border: none;
+  color: white;
+  font-weight: 500;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.15s;
+
+}
+
+.Log-In-button:hover{
+  background-color: #008bf6;
+}
+
+.Sign-up-button{
+  width: 42px;
+  height: 18px;
+  font-size: 8px;
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+  border: none;
+  color: #008bf6;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+ 
+.Sign-up-button:hover{
+  opacity: 0.5;
+  transition: 0.15s;
+}
+
+
+.Profile-contanier{
+  top: 50px;
+  left: 150px;
+  position: relative;
+  display: flex;
+}
+
+
+
+.nike-logo{
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 70px;
+
+}
+
+.first-row{
+  margin-left: 70px;
+  display: flex;
+  align-items: center;
+}
+
+.profile-name{
+  font-size: 13px;
+  display: inline-block;
+}
+
+.verfied-logo{
+  width: 9px;
+  margin-left:3px ;
+}
+
+.profile-button{
+  width: 45px;
+  height: 18px;
+  font-size: 7px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 4px;
+  font-weight:550;
+  cursor: pointer;
+}
+
+.profile-button:hover{
+  background-color: rgb(210, 209, 209);
+  transition: 0.15s;
+}
+
+.profile-info{
+   display: flex;
+   margin-left: 60px;
+}
+
+.posts{
+  font-size: 7px;
+  margin-top: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  margin-left: 10px;
+  display: inline-block;
+  cursor: pointer;
+
+}
+
+.posts:hover{
+  opacity: 0.50;
+  transition: 0.05s;
+}
+
+.nike-word{
+  margin-left: 70px;
+  font-size: 8px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.nike-desc{
+  font-size: 8px;
+  width: 170px;
+  margin-left: 70px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.nike-link{
+  font-size: 7px;
+  font-family:  'Roboto', sans-serif;
+  font-weight: 700;
+  margin-left: 70px;
+  margin-top: 0;
+  display: inline-block;
+  color:#007bff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.nike-link:hover{
+  text-decoration: underline;
+}
+
+
+.Stories-contaneir{
+  margin-top: 70px;
+  margin-left: 150px ;
+  display: flex;
+}
+
+.story-image{
+  width: 44px;
+  height: 43px;
+  border-radius: 30px;
+  object-fit: cover;
+  margin-right: 3px;
+  margin-left: 2px;
+  margin-top: 2px;
+}
+
+.story-text-1{
+  font-size: 6px;
+  margin-left: -3px;
+  width: 80px;
+  font-family:  'Roboto', sans-serif;
+  font-weight: 700;
+  
+}
+
+.story-details-1{
+  margin-left: 10px;
+  width: 47px;
+  height: 47px;
+  border-radius: 34px;
+  border-width: 0.5px;
+  border-color: rgb(199, 199, 199);
+  border-style: solid;
+}
+
+.story-details-2{
+  margin-left: 40px;
+  width: 47px;
+  height: 47px;
+  border-radius: 34px;
+  border-width: 0.5px;
+  border-color: rgb(199, 199, 199);
+  border-style: solid;
+}
+
+.story-text-2{
+  font-size: 6px;
+  margin-left: 0px;
+  width: 80px;
+  font-family:  'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+.Posts-contaneir{
+  border-top-color: rgb(204, 203, 203);
+  border-top-width: 0.5px;
+  border-top-style: solid;
+  margin-top: 50px;
+  width: 500px;
+  margin-left: 150px;
+}
+
+.logos-posts{
+  display: flex;
+  align-items: center;
+  
+}
+
+.grid-icon{
+  width: 6px;
+  height: 6px;
+  margin-left: 100px;
+  margin-top: 4px;
+  cursor: pointer;
+}
+
+.grid-text{
+  font-size: 6px;
+  margin-left: 4px;
+  margin-top: 11px;
+  font-family:'Roboto', sans-serif; 
+  font-weight: 500;
+  color: rgb(85, 83, 83);
+  letter-spacing: 0.7px;
+  cursor: pointer;
+}
+
+.reels-icon{
+  width: 7px;
+  height: 7px;
+  margin-left: 30px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.reels-text{
+  font-size: 6px;
+  margin-left: 4px;
+  margin-top: 11px;
+  font-family:'Roboto', sans-serif; 
+  font-weight: 500;
+  color: rgb(85, 83, 83);
+  letter-spacing: 0.7px;
+  cursor: pointer;
+}
+
+.guides-icon{
+  width: 7px;
+  height: 7px;
+  margin-left: 30px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.guides-text{
+  font-size: 6px;
+  margin-left: 4px;
+  margin-top: 11px;
+  font-family:'Roboto', sans-serif; 
+  font-weight: 500;
+  color: rgb(85, 83, 83);
+  letter-spacing: 0.7px;
+  cursor: pointer;
+}
+
+.tagged-icon{
+  width: 8px;
+  height: 8px;
+  margin-left: 30px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.tagged-text{
+  font-size: 6px;
+  margin-left: 4px;
+  margin-top: 11px;
+  font-family:'Roboto', sans-serif; 
+  font-weight: 500;
+  color: rgb(85, 83, 83);
+  letter-spacing: 0.7px;
+  cursor: pointer;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns:  100px 100px 100px;
+  column-gap: 50px;
+  row-gap: 8px;
+  margin-top: 8px;
+  margin-left: 110px;
+}
+
+.div-image{
+  margin-left: 30px;
+  position: relative;
+  width: 120px;
+}
+
+
+
+.photo-edit{
+  width: 100%;
+  position: relative;
+  cursor: pointer;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+.copy-icon{
+  position: absolute;
+  width: 8px;
+  top: 3px;
+  right: 0;
+  left: 105px;
+}
+
+.overlay{
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  top: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.icons-div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.like-icon{
+  width:10px;
+  margin-top: 50px;
+  margin-left: 20px;  
+}
+.like-num{
+  font-size: 8px;
+  color: white;
+  margin-top: -15px;
+  margin-left: 35px;
+  font-family: 'Roboto', sans-serif; 
+  font-weight: 700;
+  letter-spacing: 0.2px;
+
+}
+
+.comment-icon{
+  width:9px;
+  margin-top: 42px;
+  margin-left: 13px; 
+}
+
+.comment-num{
+  color: white;
+  margin-top: 48px;
+  margin-left: 5px;
+  font-family: 'Roboto', sans-serif; 
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  font-size: 8px;
+}
+
+.overlay:hover{
+  background-color: rgba(0, 0, 0, 0.3);
+ opacity: 1;
+}
+
+
+
+
