@@ -1,0 +1,500 @@
+body{
+  background-color: black;
+  height: 1000px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header-contanier{
+  display: flex;
+  position: fixed;
+  flex-direction:row;
+  align-items: center;
+  justify-content: space-between;
+  width: 730px;
+  height: 40px;
+  top : 0;  
+  background-color: black;
+  z-index: 1000000;
+    
+}
+
+.left-side{
+  margin-top: 0;
+  margin-right: 2px;
+}
+
+.logo{
+  width: 80px;
+  margin-top: 0;
+  margin-left:-20px ;
+
+}
+
+.middle-side{
+  display: flex;
+  align-items: center;
+  flex-direction:row;
+  margin-top: 0;
+  margin-left: 1px;
+  margin-right: 10px;
+
+}
+
+
+.text-1{
+  color: white;
+  font-size: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  margin-top: 0;
+  margin-right: 30px;
+  cursor: pointer;
+  
+}
+
+.text-2{
+  color: gray;
+  font-size: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  margin-top: 0;
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+.text-2:hover{
+  color: white;
+}
+
+.search-icon{
+  width: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.cast-icon{
+  width: 12px;
+  margin-left: 1px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.profile-icon{
+  width: 12px;
+  border-radius: 6px;
+  margin-right: 3px;
+  cursor: pointer;
+}
+
+
+.catagory-container{
+  margin-top:80px ;
+  margin-left: 40px;
+}
+
+.buttons-1{
+ width: 30px;
+ padding-top: 5px;
+ padding-bottom: 5px;
+ font-size: 7px;
+ background-color: rgb(66, 66, 66);
+ border-radius: 2px;
+ border:none;
+ color: white;
+ cursor: pointer;
+}
+
+.buttons-1:hover{
+  
+  background-color: rgba(210, 208, 208, 0.475)
+
+}
+
+.buttons-2{
+  width: 39px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 7px;
+  background-color: rgb(66, 66, 66);
+  border-radius: 2px;
+  border:none;
+  color: white;
+  cursor: pointer;
+ }
+ 
+ .buttons-2:hover{
+  background-color: rgba(210, 208, 208, 0.475)
+ }
+
+ .buttons-3{
+  width: 40px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 7px;
+  background-color: rgb(66, 66, 66);
+  border-radius: 2px;
+  border:none;
+  color: white;
+  cursor: pointer;
+ }
+ 
+ .buttons-3:hover{
+  background-color: rgba(210, 208, 208, 0.475)
+ }
+
+ .buttons-4{
+  width: 44px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 7px;
+  background-color: rgb(66, 66, 66);
+  border-radius: 2px;
+  border:none;
+  color: white;
+  cursor: pointer;
+ }
+ 
+ .buttons-4:hover{
+  background-color: rgba(210, 208, 208, 0.475)
+ }
+
+
+ .buttons-5{
+  width: 32px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 7px;
+  background-color: rgb(66, 66, 66);
+  border-radius: 2px;
+  border:none;
+  color: white;
+  cursor: pointer;
+ }
+ 
+ .buttons-5:hover{
+  background-color: rgba(210, 208, 208, 0.475)
+ }
+
+ .info-contanier{
+  margin-top: 25px;
+  margin-left: 39px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+ }
+
+
+ .text-again{
+  color: white;
+  font-weight: bold;
+ }
+
+ .buttons-songs{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+ }
+
+ .div-more{
+  margin-right: 5px;
+ }
+
+ .button-more{
+  width: 37px;
+  font-size: 7px;
+  border-radius: 20px;
+  border-style: sold;
+  border-width: 0.5px;
+  border-color: white;
+  background-color: black;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  cursor: pointer;
+ }
+
+.button-more:hover{
+  border: none;
+  background-color: rgba(151, 151, 151, 0.3)
+}
+
+.div-left{
+  margin-top: 2px;
+  position: relative;
+}
+
+.left-button{
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  border-color: white;
+  border-style: sold;
+  border-width: 0.5px;
+  background-color: black;
+  cursor: pointer;
+
+}
+
+.left-arrow{
+  width: 10px;
+}
+
+.left-button:hover{
+  border: none;
+  background-color: rgba(151, 151, 151, 0.3)
+}
+
+.div-right{
+  margin-top: 2px;
+  margin-right: -10px;
+  margin-left: 5px;
+
+}
+
+.right-button{
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  border-color: white;
+  border-style: sold;
+  border-width: 0.5px;
+  background-color: black;
+  cursor: pointer;
+}
+
+.right-arrow{
+  width: 10px;
+}
+
+.right-button:hover{
+  border: none;
+  background-color: rgba(151, 151, 151, 0.3)
+}
+
+.div-left .prev-tool{
+  width: 28px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 5px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 0.5px;
+  background-color: rgb(48, 47, 47);
+  position: absolute;
+  font-size: 6px;
+  color: white;
+  margin-top: -40px;
+  margin-right: 0;
+  opacity: 0;
+}
+
+.div-left:hover .prev-tool{
+  opacity: 1;
+  transition: 5s;
+}
+
+.div-right .next-tool{
+  width: 20px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 6px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 0.5px;
+  background-color: rgb(48, 47, 47);
+  position: absolute;
+  font-size: 6px;
+  color: white;
+  margin-top: -40px;
+  margin-right: 0;
+  opacity: 0;
+}
+
+
+.div-right:hover .next-tool{
+  opacity: 1;
+  transition: 5s;
+}
+
+.songs-container{
+  display: grid;
+  grid-template-columns:  100px 100px 100px 100px 100px 100px;
+  column-gap: 20px;
+}
+
+.song-div{
+  margin-left: 40px;
+  margin-top: 5px;
+  position: relative;
+  width: 95px;
+}
+
+.song-img{
+  width: 95px;
+}
+
+.song-name{
+  color: #ffffff;
+  font-size: 8px;
+  font-weight: bold;
+  width: 110px;
+  margin-bottom: 0;
+}
+
+.play-div{
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+
+.play-icon{
+  width: 12px;
+}
+
+.overlay{
+  width: 95px;
+  height: 95px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+}
+
+.overlay:hover{
+  background-color: rgba(0, 0, 0, 0.3);
+  transition: 0.15s;
+  opacity: 1;
+}
+
+.dots-div{
+  width: 20px;
+  height: 20px;
+  margin-left: 80px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+.dots-icon{
+  width: 10px;
+  padding-left: 5px;
+  cursor: pointer;
+}
+
+.dots-div:hover{
+  background-color: rgba(210, 208, 208, 0.475);
+}
+
+.artist-name{
+  color: rgb(168, 166, 166);
+  font-size: 8px;
+  font-weight: 500;
+  margin-top: 3px;
+  width: 110px;
+}
+
+.style-artist:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.radio-text{
+  color: rgb(168, 166, 166);
+  font-size: 8.5px;
+  margin-left: 39px;
+  margin-top: 60px;
+  margin-bottom: -38px;
+}
+
+.songs-container2{
+  display: grid;
+  grid-template-columns:  30px 30px 30px ;
+  column-gap: 200px;
+  justify-content: left;
+  align-items: center;
+  row-gap: 7px;
+}
+
+.song-div2{
+  margin-left: 48px;
+  
+}
+
+.song-img2{
+  display: inline-block;
+  aspect-ratio: 1 / 1;
+  width: 30px;
+  height: 30px;
+
+}
+
+.image-div{
+  display: inline-block;
+  position: relative;
+  width: 30px;
+  height: 30px;
+}
+
+.song-name2{
+  font-size: 8px;
+  color: white;
+  font-weight: bold;
+  margin-left: 40px;
+  width: 150px;
+  margin-top: -30px;
+  cursor: pointer;
+}
+
+.artist-name2{
+  font-size: 8px;
+  color: rgb(168, 166, 166);
+  margin-left: 40px;
+  width: 170px;
+  cursor: pointer;
+  margin-top: -5px;
+}
+
+.artist-name2:hover{
+  text-decoration: underline;
+}
+
+.album-name{
+  font-size: 8px;
+  color: rgb(168, 166, 166);
+  margin-left: 118px;
+  width: 170px;
+  cursor: pointer;
+  margin-top: -17px;
+}
+
+.album-name:hover{
+  text-decoration: underline;
+}
+
+.overlay2{
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  position: absolute;
+  top:0;
+  opacity: 0;
+}
+
+.overlay2:hover{
+  background-color: rgba(0, 0, 0, 0.7);
+  transition: 0.15s;
+  opacity: 1;
+}
+
+.play-icon2{
+ width: 10px;
+ margin-left: 11px;
+ margin-top: 10px;
+}
+
+
+
+
+
+
