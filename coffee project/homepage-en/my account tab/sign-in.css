@@ -1,0 +1,20 @@
+body{
+ background-color:  rgb(109, 36, 36);
+}
+
+
+.container-log-in{
+  background-color: white;
+  width: 500px;
+  height: 400px;
+  margin-left: 450px;
+  margin-top: 100px;
+  border-width: 5px;
+  border-color: rgb(167, 144, 144);
+  border-style: solid;
+  border-radius: 15px;
+}
+
+.input-style-username{
+  margin-top: 20px;
+}

@@ -1,0 +1,365 @@
+body{
+  width: 800px;
+  background-size: cover;
+  height: 1600px;
+  font-family: 'Rubik', sans-serif;
+}
+
+
+
+
+.coffee-homepage{
+  height: 800px;
+  width: 1520px;
+  margin-left: -9px;
+}
+
+
+
+.menubar{
+  background-color:rgb(109, 36, 36);
+  width: 1520px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  margin-left: -9px;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  margin-top: -15px;
+  
+}
+
+.menu-items,.myaccount-container{
+  margin-top: 3px;
+  margin-right: 100px;
+  margin-left: 10px;
+  color: white;
+  cursor: pointer;
+  width: 150px;
+  text-align: center;
+  padding-top: 30px;
+  align-items: center;
+  padding-right: 15px;
+  padding-left: 15px;
+  transition: 0.6s;
+}
+
+.myaccount-container{
+  width: 180px;
+  margin-left: 40px;
+}
+
+.menu-text{
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+  width: 40px;
+  font-weight: bold;
+  font-family: 'Rubik', sans-serif;
+  display: inline;
+}
+
+.menu-items:hover{
+ color: white;
+ transition: 0.3s;
+ opacity: 1;
+ width: 180px;
+ height: 70px;
+ 
+}
+
+.myaccount-container:hover{
+  color: white;
+  transition: 0.3s;
+  opacity: 1;
+  width: 180px;
+  height: 70px;
+  
+ }
+
+
+.icon-list{
+  width: 15px;
+  margin-left: 3px;
+}
+
+
+
+.recipes-div{
+  display: flex;
+  flex-direction: column ;
+  justify-items: center;
+  background-color:rgb(109, 36, 36);
+  opacity: 0.8;
+  width: 210px;
+  margin-top: 40px;
+  margin-left: -15px;
+  visibility: hidden;
+  
+}
+
+.myaccount-border{
+  display: flex;
+  flex-direction: column ;
+  justify-items: center;
+  background-color:rgb(109, 36, 36);
+  opacity: 0.8;
+  width: 210px;
+  margin-top: 40px;
+  margin-left: -15px;
+  visibility: hidden;
+}
+
+.recipes-drop-list:hover .recipes-div{
+  transition: 0.5s;
+  visibility: visible;
+}
+
+.myacount-hoviring:hover .myaccount-border{
+  transition: 0.5s;
+  visibility: visible;
+}
+
+
+.recipes-border,.myaccount-items{
+  padding-top: 10px;
+  padding-bottom: 14px;
+}
+
+
+.recipes-text{
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Rubik', sans-serif;
+}
+
+.recipes-border:hover{
+  transition: 0.3s;
+  background-color: rgb(58, 12, 12);
+  opacity: 1;
+}
+
+.myaccount-items:hover{
+  transition: 0.3s;
+  background-color:rgb(58, 12, 12); 
+  opacity: 1;
+}
+
+
+.main-bar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+.coffee-images-border{
+  width: 800px;
+  height: 500px;
+  overflow: hidden;
+  margin-top: 100px;
+  margin-left: 320px;
+  border-color: rgb(58, 12, 12);
+  border-style: solid;
+  border-width: 4px;
+   
+}
+
+.img-container {
+  width: 100%;
+  display: flex;
+  animation: slide 33s infinite;
+}
+
+.coffee-images{
+  width: 100%;
+}
+
+
+
+
+
+@keyframes slide{
+  0%{
+    transform: translateX(0);
+  }
+
+  25%{
+    transform: translateX(0);
+  }
+
+  30%{
+    transform: translateX(-100%);
+  }
+
+  50%{
+    transform: translateX(-100%);
+  }
+
+  55%{
+    transform: translateX(-200%);
+  }
+
+  75%{
+    transform: translateX(-200%);
+  }
+
+  80%{
+    transform: translateX(-300%);
+  }
+
+  100%{
+    transform: translateX(-300%);
+  }
+
+
+}
+
+
+
+.text-images-container{
+  display: grid;
+  grid-template-columns: 200px 200px;
+  column-gap: 600px;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+
+.images{
+  width: 600px;
+  height: 500px;
+  position: relative;
+}
+
+.image1{
+  width: 450px;
+  height: 585px;
+  cursor: pointer;
+}
+
+.image2{
+  width: 480px;
+  height: 590px;
+  cursor: pointer;
+}
+
+
+.black-box,.black-box1{
+  width: 450px;
+  height: 586px;
+  background-color: rgba(0, 0,0, 0.7);
+  top: 0;
+  position: absolute;
+  color: white;
+  opacity: 0 ;
+  cursor: pointer;
+  transition: opacity 0.6s ease-in-out;
+  
+}
+
+.black-box1{
+  width: 480px;
+}
+
+.text{
+  font-size: 17px;
+  text-align: center;
+  margin-left: 100px;
+  margin-top: 50px;
+  line-height: 40px;
+  font-weight: 300;
+  width: 250px;
+  cursor: pointer;
+  
+}
+
+.images:hover .black-box{
+  opacity: 1 ;
+  transition: 0,5s;
+}
+
+.images:hover .black-box1{
+  opacity: 1 ;
+  transition: 0,5s;
+}
+
+.footer{
+  background-color:rgb(109, 36, 36);
+  width: 1520px;
+  height: 200px;
+  position: absolute;
+  bottom: 0;
+  margin-left: -9px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  z-index: 0;
+  bottom: -1000px;
+  
+}
+
+.group-name{
+  color:white ;
+  margin-left: 80px;
+  margin-top: 50px;
+}
+
+.contact-us{
+  margin-right: -40px;
+}
+
+
+
+.x-container{
+  display: inline;
+}
+
+.logo-insta{
+  width: 30px;
+  height: 30px;
+  margin-left: 85px;
+  object-fit: cover;
+}
+
+
+
+.logo-x{
+  width: 30px;
+  height: 30px;
+  margin-left: 30px;
+}
+
+.copyright{
+  margin-top: 38px;
+  color: white;
+}
+
+.change-lang{
+  margin-right: 60px;
+  margin-top: 50px;
+  
+}
+
+.change-lang-ar{
+  color: white ;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+

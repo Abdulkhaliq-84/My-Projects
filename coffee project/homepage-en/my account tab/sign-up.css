@@ -1,0 +1,79 @@
+body{
+  background-color:rgb(109, 36, 36);
+  height: 1000px;
+  font-family: 'Rubik', sans-serif;
+}
+
+
+
+.container{
+  background-color: white;
+  width: 500px;
+  height: 600px;
+  margin-left: 450px;
+  margin-top: 100px;
+  border-width: 5px;
+  border-color: rgb(167, 144, 144);
+  border-style: solid;
+  border-radius: 15px;
+  
+}
+
+.sign-up-logo{
+  width: 150px;
+  margin-left:160px;
+  margin-top: 10px;
+  
+}
+
+.input-container{
+  margin-left: 80px;
+  margin-top: 20px;
+}
+
+label{
+  font-size: 17px;
+  font-weight: bold;
+  
+}
+
+
+.input-style{
+  margin-left: 10px;
+  width: 200px;
+  height: 20px;
+  border-radius: 10px;
+  border-color: black;
+  border-style: solid;
+}
+
+.input-style-age{
+  margin-left: 60px;
+}
+
+
+.input-style-email{
+  margin-left: 50px;
+}
+
+.input-style-radio{
+  margin-right: -80px;
+  margin-left: -10px;
+}
+
+.input-style-button{
+  width: 100px;
+  border-radius: 15px;
+  height: 40px;
+  background-color: rgb(155, 55, 55);
+  color: white;
+  font-weight: bold;
+  margin-left: 100px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.input-style-button:hover{
+  width: 150px;
+  transition: 0.4s;
+}

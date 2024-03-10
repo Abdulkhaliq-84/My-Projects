@@ -1,0 +1,247 @@
+body{
+  background-color: white;
+  height: 1500px;
+  font-family: 'Rubik', sans-serif;
+}
+
+
+.container-log-in{
+  background-color: white;
+  width: 800px;
+  height: 100%;
+  margin-left: 340px;
+  margin-top: 100px;
+  border-width: 5px;
+  border-color: rgb(167, 144, 144);
+  border-style: solid;
+  border-radius: 15px;
+}
+
+.input-style-username{
+  margin-top: 20px;
+}
+
+
+.input-style{
+  margin-left: 10px;
+  width: 200px;
+  height: 20px;
+  border-radius: 10px;
+  border-color: black;
+  border-style: solid;
+}
+
+.input-style-age{
+  margin-left: 60px;
+}
+
+
+.input-style-email{
+  margin-left: 50px;
+}
+
+.input-style-radio{
+  margin-right: -80px;
+  margin-left: -10px;
+}
+
+.input-style-button{
+  width: 100px;
+  border-radius: 15px;
+  height: 40px;
+  background-color: rgb(155, 55, 55);
+  color: white;
+  font-weight: bold;
+  margin-left: 100px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.input-style-button:hover{
+  width: 150px;
+  transition: 0.4s;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+ 
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgb(155, 55, 55);
+  color: white;
+
+}
+
+table tbody tr:nth-child(even) {
+  background-color: #e6e6e6;
+}
+
+table tbody tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+
+#coffeeTable1{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.add-rating{
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+
+#rate-options{
+
+  width: 50px;
+  height: 30px;
+  margin-left: 10px;
+  border-radius: 5px;
+  background-color: rgb(155, 55, 55);
+  color: white;
+
+}
+
+
+.rate-button{
+  width: 100px;
+  border-radius: 15px;
+  height: 40px;
+  background-color: rgb(155, 55, 55);
+  color: white;
+  font-weight: bold;
+  margin-left: 40px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.rate-button:hover{
+  width: 150px;
+  transition: 0.4s;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+.input-hidden{
+  visibility: hidden;
+}
+
+label{
+  margin-left: 300px;
+  font-size: 24px;
+  
+}
+
+.buttons{
+  width: 110px;
+  border-radius: 15px;
+  height: 45px;
+  background-color:rgb(155, 55, 55);
+  color: white;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.stars{
+  width:100px;
+}
+
+.felxbox1{
+  margin-top: 80px;
+  display: flex;
+  margin-left: 50px;
+}
+
+
+.test{
+  position: relative;
+  width: 50px;
+  height: 40px;
+  display: inline;
+  margin-top: 50px;
+}
+
+.test2{
+  position: absolute;
+  margin-bottom: 70px;
+  width: 40px;
+  height: 40px;
+  top: 0px;
+  left: 2px;
+
+}
+
+.star{
+  
+  width: 100px;
+  margin-left: 23px;
+  
+}
+
+.labelCon{
+  margin-top: 50px;
+}
+
+
+
+.label-input-con,.button-comment-con{
+  margin-left: 260px;
+  margin-top: 30px;
+}
+
+.label-input{
+  width: 300px;
+  height: 50px;
+  border-radius: 5px;
+  border-style: solid;
+
+}
+
+.button-comment-con{
+  margin-left: 320px;
+}
+
+.comment-table{
+  width: 100%;
+  margin-top: 50px;
+ 
+}
+
+.comment-row{
+
+}
+
+.comment-header{
+  width: 500px; 
+  font-size: 15px;
+  background-color: rgb(155, 55, 55);
+  color: white;
+}
